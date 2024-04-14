@@ -60,10 +60,14 @@
 			<artifactId>querydsl-apt</artifactId>
 			<version>5.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>nz.net.ultraq.thymeleaf</groupId>
+			<artifactId>thymeleaf-layout-dialect</artifactId>
+			<version>2.5.1</version>
+		</dependency>
 
 
-
-	</dependencies>h
+	</dependencies>
 
 	<build>
 		<plugins>

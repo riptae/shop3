@@ -44,6 +44,11 @@ public class ThymeleafTestController {
         model.addAttribute("itemDtoList", itemDtoList);
         return "thymeleafEx/ex04";
     }
+    @GetMapping(value = "/ex07")
+    public String thymeleafExample07(){
+        return "thymeleafEx/ex07";
+    }
+
 
 
 
