@@ -28,7 +28,7 @@ public class Order extends BaseEntity {
     private OrderStatus orderStatus; //주문상태
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL
-            ,fetch = FetchType.LAZY)
+            ,orphanRemoval = true, fetch = FetchType.LAZY)
     private List<OrderItem> orderItems = new ArrayList<>();
 
 }
