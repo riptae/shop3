@@ -1,4 +1,1 @@
-0414~0417
-#3번째 순서대로 만들기
-
-1 : 시간을 허비하지 않아도 되는 실수는 무시한다
+![erd](https://github.com/riptae/shop3/assets/162382088/cda799ad-7bd0-443b-8dc5-e973ea39f0bc)
